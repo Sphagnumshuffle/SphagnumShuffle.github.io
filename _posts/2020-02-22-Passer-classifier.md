@@ -138,8 +138,9 @@ data.classes
 data.show_batch(rows=3, figsize=(7,8))
 ```
 
+![](../../../../../../images/passer-classifier/duplicate.png)
 
-![png](images/Passer-classifier_files/output_27_0.png)
+![png](../../../../../../images/passer-classifier/output_27_0.png)
 
 
 Here we see below:
