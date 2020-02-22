@@ -87,6 +87,9 @@ path.ls()
      PosixPath('data/birds/passer_montanus.csv')]
 
 
+Here is the folder structure inside my data-folder after doing the clean up, which we will cover later on
+
+{% include screenshot url="passer-classifier/data-folder-structure2.png" %}
 
 ## Download images
 
@@ -720,7 +723,7 @@ ImageCleaner(ds, idxs, path, duplicates=True)
     'No images to show :). 4 pairs were skipped since at least one of the images was deleted by the user.'
 
 
-![](../../../../../../images/passer-classifier/image-cleaner.png)
+![](../../../../../../images/passer-classifier/duplicate.png)
 
 Whew, that was a lot of clicking. But now its done and I have a good feeling that our dataset is much better than before. Now the important thing to remember here, is that we have to recreate our `ImageDataBunch` from `cleaned.csv` so that our modifications don't go to waste. So let's do that here
 
