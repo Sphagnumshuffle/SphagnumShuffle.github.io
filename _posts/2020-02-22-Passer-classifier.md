@@ -1,6 +1,8 @@
 # Build CNN to classify *Parus domesticus* and *Parus montanus* individuals
-> summary
+> This blog post shows how to build CNN classifier using your own dataset. This is really fast and fun by using fast.ai library
 
+1. TOC
+{:toc}
 
 # Passer-classifier
 
@@ -10,8 +12,7 @@ I aim to do this project quick and dirty using fastai's awesome library that run
 
 Oh, btw, my approach here is to use CNN based on popular CNN architectures such as ResNet
 
-1. TOC
-{:toc}
+
 
 ```python
 from fastai.vision import *
