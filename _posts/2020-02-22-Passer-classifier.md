@@ -138,8 +138,6 @@ data.classes
 data.show_batch(rows=3, figsize=(7,8))
 ```
 
-![](../../../../../../images/passer-classifier/duplicate.png)
-
 ![png](../../../../../../images/passer-classifier/output_27_0.png)
 
 
@@ -253,7 +251,7 @@ learn.recorder.plot()
 ```
 
 
-![png](Passer-classifier_files/output_40_0.png)
+![png](../../../../../../images/passer-classifier/output_40_0.png)
 
 
 On the learning rate finder, we are looking for the strongest downward slope that's kind of sticking around for quite a while. This is something you just need a practice on - practice makes perfect!
@@ -343,7 +341,7 @@ interp.plot_confusion_matrix()
 ```
 
 
-![png](Passer-classifier_files/output_48_0.png)
+![png](../../../../../../images/passer-classifier/output_48_0.png)
 
 
 Let's see some examples what labels our classifier puts on iamges
@@ -353,7 +351,7 @@ learn.show_results()
 ```
 
 
-![png](Passer-classifier_files/output_50_0.png)
+![png](../../../../../../images/passer-classifier/output_50_0.png)
 
 
 Based on these results seems like our Passer classifier is doing pretty well. One thing to note here that it seems to be able to classify female individuals of both species in this small sample I showed you above. But you can easily see that our dataset is still pretty corrupted as it contains lots of bad pictures of our Passer individuals. We aim to work with that in the next section
@@ -752,7 +750,7 @@ data.show_batch(rows=3, figsize=(7,8))
 ```
 
 
-![png](Passer-classifier_files/output_71_0.png)
+![png](../../../../../../images/passer-classifier/output_71_0.png)
 
 
 ```python
@@ -956,7 +954,7 @@ interp.plot_confusion_matrix()
 ```
 
 
-![png](Passer-classifier_files/output_83_0.png)
+![png](../../../../../../images/passer-classifier/output_83_0.png)
 
 
 ```python
@@ -964,7 +962,7 @@ learn_cleaned_set.show_results()
 ```
 
 
-![png](Passer-classifier_files/output_84_0.png)
+![png](../../../../../../images/passer-classifier/output_84_0.png)
 
 
 Most of our predictions hit the spot here, but no model is perfect as they should not be. We can still see that our dataset isn't perfect as there is still at least one female picture in these pictures. This is the side effect when loading the images from Google Image search as it often contains wrong pictures or some mislabeled ones.
