@@ -1,4 +1,4 @@
-# Title
+# Build CNN to classify *Parus domesticus* and *Parus montanus* individuals
 > summary
 
 
@@ -135,7 +135,7 @@ data.show_batch(rows=3, figsize=(7,8))
 ```
 
 
-![png](Passer-classifier_files/output_27_0.png)
+![png](images/Passer-classifier_files/output_27_0.png)
 
 
 Here we see below:
